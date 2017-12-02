@@ -1,0 +1,207 @@
+
+h1,
+h2 {
+    position: relative;
+    top: 180px;
+
+    text-align: center;
+
+    color: #ce009f;
+}
+
+body {
+    font-family: Tahoma,Arial,”Helvetica Neue“,”Hiragino Sans GB”,Simsun,sans-self;
+
+    color: #8862c2;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+/*log in*/
+form {
+    position: relative;
+    top: 200px;
+
+    width: 250px;
+    margin: auto;
+}
+
+
+#name,
+#id,
+#mail,
+#phone {
+    position: absolute;
+    right: 30px;
+}
+
+#reset,
+#submit {
+    font-size: 18px;
+
+    position: absolute;
+
+    width: 50px;
+    height: 35px;
+
+    text-align: center;
+
+    opacity: .7;
+    border-radius: 20%;
+    background-color: #f9c3c5;
+    box-shadow: -5px 5px 3px #888;
+}
+
+#reset:hover,
+#submit:hover {
+    opacity: 1;
+}
+
+
+#reset {
+    left: 30px;
+}
+
+#submit {
+    right: 30px;
+}
+
+
+/*error*/
+#err_block {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+
+#err_inline_block {
+    height: 210px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 8px;
+
+    border-radius: 10%;
+    box-shadow: -5px 5px 3px #888;
+}
+
+.err_inf {
+    color: red;
+}
+
+#err_name {
+    position: absolute;
+    top: 10px;
+    left: 230px;
+
+    width: 500px;
+}
+
+#err_id {
+    position: absolute;
+    top: 48px;
+    left: 230px;
+
+    width: 500px;
+}
+
+#err_phone {
+    position: absolute;
+    top: 85px;
+    left: 230px;
+
+    width: 500px;
+}
+
+#err_mail {
+    position: absolute;
+    top: 124px;
+    left: 230px;
+
+    width: 500px;
+}
+
+/*-----*/
+
+
+/*用户信息*/
+#inf_block {
+    width: 250px;
+    height: 220px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#inf_inline_block {
+    height: 200px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 50px;
+
+    border-radius: 10%;
+    box-shadow: -5px 5px 3px #888;
+
+    font-size: 18px;
+}
+
+/*--------*/
+
+button {
+    font-size: 18px;
+
+    position: relative;
+    top: 200px;
+
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 100%;
+    outline: none;
+}
+
+#block {
+    width: 250px;
+    height: 220px;
+    margin: auto;
+}
+
+#inline_block {
+    height: 180px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 8px;
+    /*border: gray 1px solid;*/
+
+    border-radius: 10%;
+    box-shadow: -5px 5px 3px #888;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+
+    border: none;
+    outline: none;
+}
+
+#confrim {
+    font-size: 18px;
+
+    position: absolute;
+
+    width: 50px;
+    height: 35px;
+
+    text-align: center;
+
+    opacity: .7;
+    border-radius: 20%;
+    background-color: #f9c3c5;
+    box-shadow: -5px 5px 3px #888;
+}
